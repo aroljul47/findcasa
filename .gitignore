@@ -1,0 +1,30 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated assets
+**/node_modules/
+**/vendor/
+**/dist/
+**/build/
+
+# Local databases and runtime files
+backend/database/database.sqlite
+backend/.phpunit.result.cache
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/public/storage
+frontend/test-results/
+frontend/playwright-report/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
